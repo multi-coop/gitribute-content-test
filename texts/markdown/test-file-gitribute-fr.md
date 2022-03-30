@@ -16,7 +16,7 @@ Test de sous-menu... avec une liste :
 - un point 
 - un autre
 
-## Un tableur
+## Un tableur en markdown
 
 |name|surname|profession|birth_year|tags|
 |:-:|:-:|:-:|:-:|:-:|
