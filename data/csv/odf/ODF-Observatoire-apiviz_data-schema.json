@@ -1,0 +1,163 @@
+{
+  "fields": [
+    {
+      "name": "id_odf",
+      "title": "Identifiant ODF",
+      "description": "Identifiant unique proposé par Open Data France",
+      "type": "string",
+      "custom-properties": {
+        "locked": true
+      }
+    },
+    {
+      "name": "siren",
+      "title": "N° SIREN",
+      "description": "Numéro de SIREN de la structure",
+      "type": "string"
+    },
+    {
+      "name": "type",
+      "title": "Type d&#39;organisation",
+      "type": "string",
+      "constraints": {
+        "enum" : [
+          "AGCT",
+          "CA",
+          "CC",
+          "COM",
+          "CU",
+          "DEP",
+          "DSPT",
+          "EPT",
+          "MET",
+          "OACT",
+          "REG",
+          "SDE"
+        ]
+      },
+      "custom-properties": {
+        "subtype": "tag"
+      }
+    },
+    {
+      "name": "tags",
+      "title": "Tags thématiques",
+      "type": "string",
+      "custom-properties": {
+        "subtype": "tags",
+        "tagSeparator": "-"
+      }
+    },
+    {
+      "name": "merge",
+      "title": "Merge",
+      "type": "string",
+      "constraints": {
+        "enum" : [
+          "datagouv",
+          "ptf"
+        ]
+      },
+      "custom-properties": {
+        "subtype": "tags",
+        "tagSeparator": "+"
+      }
+    },
+    {
+      "name": "orga",
+      "type": "string",
+      "custom-properties": {
+        "subtype": "tag",
+        "allowNew": true
+      }
+    },
+    {
+      "name": "platform_clean",
+      "type": "string",
+      "custom-properties": {
+        "subtype": "tag"
+      }
+    },
+    {
+      "name": "depcode",
+      "type": "string",
+      "custom-properties": {
+        "subtype": "tag"
+      }
+    },
+    {
+      "name": "reg_code_geo",
+      "type": "string",
+      "custom-properties": {
+        "subtype": "tag"
+      }
+    },
+    {
+      "name": "reg_code_short",
+      "type": "string",
+      "custom-properties": {
+        "subtype": "tag"
+      }
+    },
+    {
+      "name": "tranche_ptf",
+      "type": "string",
+      "custom-properties": {
+        "subtype": "tag"
+      }
+    },
+    {
+      "name": "tranche_pop",
+      "type": "string",
+      "custom-properties": {
+        "subtype": "tag"
+      }
+    },
+    {
+      "name": "url_ptf",
+      "title": "URL de la plateforme",
+      "type": "string",
+      "custom-properties": {
+        "subtype": "link"
+      }
+    },
+    {
+      "name": "url_datagouv",
+      "title": "URL sur datagouv",
+      "type": "string",
+      "custom-properties": {
+        "subtype": "link"
+      }
+    },
+    {
+      "name": "nb_ptf",
+      "title": "Nombre de plateformes",
+      "type": "integer"
+    },
+    {
+      "name": "nb_datagouv",
+      "title": "Nombre de plateformes",
+      "type": "integer"
+    },
+    {
+      "name": "pop_insee",
+      "title": "Population",
+      "type": "integer"
+    },
+    {
+      "name": "lat",
+      "title": "Latitude",
+      "type": "number"
+    },
+    {
+      "name": "lon",
+      "title": "Longitude",
+      "type": "number"
+    },
+    {
+      "name": "boolean",
+      "title": "Bouléen",
+      "type": "boolean"
+    }
+  ]
+}
