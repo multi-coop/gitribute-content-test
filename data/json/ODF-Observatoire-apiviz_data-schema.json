@@ -4,10 +4,7 @@
       "name": "id_odf",
       "title": "Identifiant ODF",
       "description": "Identifiant unique proposé par Open Data France",
-      "type": "string",
-      "custom-properties": {
-        "locked": true
-      }
+      "type": "string"
     },
     {
       "name": "siren",
@@ -34,19 +31,12 @@
           "REG",
           "SDE"
         ]
-      },
-      "custom-properties": {
-        "subtype": "tag"
       }
     },
     {
       "name": "tags",
       "title": "Tags thématiques",
-      "type": "string",
-      "custom-properties": {
-        "subtype": "tags",
-        "tagSeparator": "-"
-      }
+      "type": "string"
     },
     {
       "name": "merge",
@@ -57,77 +47,46 @@
           "datagouv",
           "ptf"
         ]
-      },
-      "custom-properties": {
-        "subtype": "tags",
-        "tagSeparator": "+"
       }
     },
     {
       "name": "orga",
-      "type": "string",
-      "custom-properties": {
-        "subtype": "tag",
-        "allowNew": true
-      }
+      "type": "string"
     },
     {
       "name": "platform_clean",
-      "type": "string",
-      "custom-properties": {
-        "subtype": "tag"
-      }
+      "type": "string"
     },
     {
       "name": "depcode",
-      "type": "string",
-      "custom-properties": {
-        "subtype": "tag"
-      }
+      "type": "string"
     },
     {
       "name": "reg_code_geo",
-      "type": "string",
-      "custom-properties": {
-        "subtype": "tag"
-      }
+      "type": "string"
     },
     {
       "name": "reg_code_short",
-      "type": "string",
-      "custom-properties": {
-        "subtype": "tag"
-      }
+      "type": "string"
     },
     {
       "name": "tranche_ptf",
-      "type": "string",
-      "custom-properties": {
-        "subtype": "tag"
-      }
+      "type": "string"
     },
     {
       "name": "tranche_pop",
-      "type": "string",
-      "custom-properties": {
-        "subtype": "tag"
-      }
+      "type": "string"
     },
     {
       "name": "url_ptf",
       "title": "URL de la plateforme",
-      "type": "string",
-      "custom-properties": {
-        "subtype": "link"
-      }
+      "type": "string"
     },
     {
       "name": "url_datagouv",
       "title": "URL sur datagouv",
       "type": "string",
-      "custom-properties": {
-        "subtype": "link"
-      }
+      "format": "uri"
     },
     {
       "name": "nb_ptf",
