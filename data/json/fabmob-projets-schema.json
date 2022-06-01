@@ -1,0 +1,72 @@
+{
+  "fields": [
+    { 
+      "name": "pageUrl",
+      "type": "string"
+    },
+    { 
+      "name": "imageUrl",
+      "type": "string"
+    },
+    { 
+      "name": "url",
+      "type": "string"
+    },
+    { 
+      "name": "description",
+      "type": "string"
+    },
+    { 
+      "name": "shortDescription",
+      "type": "string"
+    },
+    { 
+      "name": "Main_Picture",
+      "type": "string"
+    },
+    { 
+      "name": "Coordonnées géo",
+      "type": "string"
+    },
+    { 
+      "name": "needs",
+      "type": "string"
+    },
+    { 
+      "name": "referent",
+      "type": "string"
+    },
+    { 
+      "name": "communauté d&#39;intérêt",
+      "type": "string"
+    },
+    { 
+      "name": "Titre",
+      "type": "string"
+    },
+    { 
+      "name": "etape",
+      "type": "string"
+    },
+    {
+      "name": "Tags",
+      "type": "string"
+    },
+    {
+      "name": "Theme",
+      "type": "string"
+    },
+    {
+      "name": "location",
+      "type": "string"
+    },
+    {
+      "name": "from",
+      "type": "string"
+    },
+    {
+      "name": "challenge",
+      "type": "string"
+    }
+  ]
+}
