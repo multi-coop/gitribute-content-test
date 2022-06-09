@@ -1,0 +1,45 @@
+{
+  "fields": [
+    {
+      "name": "Objet",
+      "subtype": "longtext",
+      "maxLength": 75
+    },
+    {
+      "name": "Phase",
+      "subtype": "tags",
+      "tagSeparator": ","
+    },
+    {
+      "name": "Type",
+      "subtype": "tags",
+      "tagSeparator": "/"
+    },
+    {
+      "name": "Producteurs",
+      "subtype": "tag"
+    },
+    {
+      "name": "Wordpress status",
+      "subtype": "tag"
+    },
+    {
+      "name": "Lien vers la ressources",
+      "subtype": "link"
+    },
+    {
+      "name": "Enjeux politiques",
+      "subtype": "tags",
+      "tagSeparator": ","
+    },
+    {
+      "name": "Enjeux Opérationnels",
+      "subtype": "tags",
+      "tagSeparator": ","
+    },
+    {
+      "name": "Wordpress ID",
+      "hide": true
+    }
+  ]
+}

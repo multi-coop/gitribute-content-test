@@ -1,0 +1,130 @@
+{
+  "fields": [
+    {
+      "name": "id_odf",
+      "locked": true
+    },
+    {
+      "name": "nom",
+      "sticky": true,
+      "primaryKey": true
+    },
+    {
+      "name": "siren"
+    },
+    {
+      "name": "adress",
+      "subtype": "longtext",
+      "maxLength": 15
+    },
+    {
+      "name": "id_datagouv",
+      "hide": true
+    },
+    {
+      "name": "type",
+      "subtype": "tag"
+    },
+    {
+      "name": "tags",
+      "subtype": "tags",
+      "tagSeparator": "-"
+    },
+    {
+      "name": "merge",
+      "subtype": "tags",
+      "tagSeparator": "+"
+    },
+    {
+      "name": "orga",
+      "subtype": "tag",
+      "allowNew": true
+    },
+    {
+      "name": "platform_clean",
+      "subtype": "tag"
+    },
+    {
+      "name": "depcode",
+      "subtype": "tag"
+    },
+    {
+      "name": "reg_code_geo",
+      "subtype": "tag"
+    },
+    {
+      "name": "reg_code_short",
+      "subtype": "tag"
+    },
+    {
+      "name": "tranche_ptf",
+      "subtype": "tag"
+    },
+    {
+      "name": "tranche_pop",
+      "subtype": "tag"
+    },
+    {
+      "name": "url_ptf",
+      "subtype": "link"
+    },
+    {
+      "name": "url_datagouv",
+      "subtype": "link"
+    }
+  ],
+  "consolidation": [
+    {
+      "api_name": "api-entreprise",
+      "source_fields": [
+        { "name": "siren" }
+      ],
+      "activate": true,
+      "api": "https://entreprise.data.gouv.fr/api/sirene/v3/unites_legales/{{siren}}",
+      "results_fields": [
+        {
+          "resp_field": "unite_legale.etablissement_siege.latitude",
+          "map_to_field": "lat"
+        },
+        {
+          "resp_field": "unite_legale.etablissement_siege.longitude",
+          "map_to_field": "lon"
+        },
+        {
+          "resp_field": "unite_legale.etablissement_siege.geo_adresse",
+          "map_to_field": "adress"
+        },
+        {
+          "resp_field": "unite_legale.etablissement_siege.code_postal",
+          "map_to_field": "depcode"
+        }
+      ]
+    },
+    {
+      "api_name": "adresse.gouv.fr",
+      "source_fields": [
+        { "name": "adress" }
+      ],
+      "activate": false,
+      "api": "api-ban",
+      "results_fields": [
+        { 
+          "resp_field" : "latitude",
+          "map_to_field": "lat"
+        },
+        { 
+          "resp_field" : "longitude",
+          "map_to_field": "lon"
+        }
+      ]
+    }
+  ],
+  "validation": [
+    {
+      "api_name": "api-json-validation",
+      "api": "https://json.validator.validata.fr/validate",
+      "api_doc": "https://json.validator.validata.fr/apidocs",
+      "notes": "not implemented (yet)"
+    }
+  ]
+}
