@@ -1,0 +1,61 @@
+{
+  "fields-custom-properties": [
+    {
+      "name": "Nom",
+      "sticky": true,
+      "primaryKey": true
+    },
+    {
+      "name": "Site internet",
+      "subtype": "link"
+    },
+    {
+      "name": "Contact",
+      "subtype": "email"
+    },
+    {
+      "name": "Domaine(s)",
+      "subtype": "tags",
+      "tagSeparator": ",",
+      "allowNew": true
+    },
+    {
+      "name": "Statut juridique",
+      "subtype": "tag"
+    },
+    {
+      "name": "Adresse",
+      "subtype": "longtext",
+      "maxLength": 20
+    },
+    {
+      "name": "Département(s)",
+      "subtype": "tags",
+      "tagSeparator": ","
+    },
+    {
+      "name": "Région(s)",
+      "subtype": "tags",
+      "tagSeparator": ","
+    },
+    {
+      "name": "Numéro SIREN"
+    },
+    {
+      "name": "Latitude",
+      "subtype": "geopoint"
+    },
+    {
+      "name": "Longitude",
+      "subtype": "geopoint"
+    },
+    {
+      "name": "Adhérent CoopTech"
+    },
+    {
+      "name": "Notes",
+      "subtype": "longtext",
+      "maxLength": 20
+    }
+  ]
+}

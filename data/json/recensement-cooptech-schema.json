@@ -19,7 +19,7 @@
       "format": "email"
     },
     {
-      "name": "Domaines",
+      "name": "Domaine(s)",
       "title": "Domaines d'exercice",
       "type": "string",
       "constraints": {
@@ -44,12 +44,18 @@
           "SCOP",
           "SCIC",
           "CAE",
+          "Fédération",
           "Association",
           "GIE",
           "GIP",
+          "Institution",
           "Autre"
         ]
       }
+    },
+    {
+      "name": "Adresse",
+      "type": "string"
     },
     {
       "name": "Département(s)",
