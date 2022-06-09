@@ -6,6 +6,11 @@
       "primaryKey": true
     },
     {
+      "name": "Présentation",
+      "subtype": "longtext",
+      "maxLength": 50
+    },
+    {
       "name": "Site internet",
       "subtype": "link"
     },
@@ -81,7 +86,7 @@
         },
         {
           "resp_field": "unite_legale.etablissement_siege.code_postal",
-          "map_to_field": "Département"
+          "map_to_field": "Département(s)"
         }
       ]
     },

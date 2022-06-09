@@ -7,6 +7,12 @@
       "type": "string"
     },
     {
+      "name": "Présentation",
+      "title": "Présentation de la structure",
+      "description": "Paragraphe de présentation de la structure",
+      "type": "string"
+    },
+    {
       "name": "Site internet",
       "title": "URL du site internet de la structure",
       "type": "string",
