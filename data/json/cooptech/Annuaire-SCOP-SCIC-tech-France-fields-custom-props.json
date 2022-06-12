@@ -29,6 +29,10 @@
       "subtype": "tag"
     },
     {
+      "name": "Fiche URSCOP",
+      "subtype": "link"
+    },
+    {
       "name": "Adresse",
       "subtype": "longtext",
       "maxLength": 20
