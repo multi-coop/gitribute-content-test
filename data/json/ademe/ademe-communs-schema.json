@@ -37,15 +37,7 @@
       "type": "string"
     },
     { 
-      "name": "communauté d&#39;intérêt",
-      "type": "string"
-    },
-    { 
       "name": "Titre",
-      "type": "string"
-    },
-    { 
-      "name": "etape",
       "type": "string"
     },
     {
@@ -54,14 +46,6 @@
     },
     {
       "name": "Theme",
-      "type": "string"
-    },
-    {
-      "name": "location",
-      "type": "string"
-    },
-    {
-      "name": "from",
       "type": "string"
     },
     {
