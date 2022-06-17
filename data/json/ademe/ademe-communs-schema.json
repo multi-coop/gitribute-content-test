@@ -25,7 +25,27 @@
       "type": "string"
     },
     { 
-      "name": "Title",
+      "name": "Coordonnées géo",
+      "type": "string"
+    },
+    { 
+      "name": "needs",
+      "type": "string"
+    },
+    { 
+      "name": "referent",
+      "type": "string"
+    },
+    { 
+      "name": "communauté d&#39;intérêt",
+      "type": "string"
+    },
+    { 
+      "name": "Titre",
+      "type": "string"
+    },
+    { 
+      "name": "etape",
       "type": "string"
     },
     {
@@ -37,11 +57,15 @@
       "type": "string"
     },
     {
+      "name": "location",
+      "type": "string"
+    },
+    {
       "name": "from",
       "type": "string"
     },
     {
-      "name": "commonscategorie",
+      "name": "challenge",
       "type": "string"
     }
   ]
