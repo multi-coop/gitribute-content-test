@@ -1,6 +1,11 @@
 {
   "fields": [
     {
+      "name": "Name",
+      "tagSeparator": ",",
+      "foreignKey": true
+    },
+    {
       "name": "Tags",
       "subtype": "tags",
       "tagSeparator": ","
