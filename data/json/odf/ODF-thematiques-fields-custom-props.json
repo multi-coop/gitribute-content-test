@@ -2,7 +2,9 @@
   "fields": [
     {
       "name": "Name",
+      "subtype": "tag",
       "tagSeparator": ",",
+      "primaryKey": true,
       "foreignKey": true
     },
     {
