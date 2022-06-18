@@ -1,0 +1,19 @@
+{
+  "fields": [
+    {
+      "name": "Tags",
+      "subtype": "tags",
+      "tagSeparator": ","
+    },
+    {
+      "name": "Organisations_Id",
+      "subtype": "tags",
+      "tagSeparator": ","
+    },
+    {
+      "name": "Organisations_Noms",
+      "subtype": "tags",
+      "tagSeparator": ","
+    }
+  ]
+}
