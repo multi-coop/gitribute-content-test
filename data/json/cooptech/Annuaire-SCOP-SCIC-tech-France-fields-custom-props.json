@@ -97,7 +97,7 @@
     {
       "api_name": "adresse.gouv.fr",
       "source_fields": [
-        { "name" : "adress" }
+        { "name": "Adresse" }
       ],
       "activate": true,
       "api": "https://api-adresse.data.gouv.fr/search/?q={{adress}}",
