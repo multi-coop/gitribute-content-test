@@ -47,7 +47,7 @@
       "name": "Région(s)",
       "subtype": "tags",
       "tagSeparator": ",",
-      "bgcolor" : "brown"
+      "bgcolor" : "green"
     },
     {
       "name": "Numéro SIREN"
