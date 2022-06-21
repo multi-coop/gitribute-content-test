@@ -22,7 +22,8 @@
       "name": "Domaine(s)",
       "subtype": "tags",
       "tagSeparator": ",",
-      "allowNew": true
+      "allowNew": true,
+      "bgcolor" : "purple" 
     },
     {
       "name": "Statut juridique",
