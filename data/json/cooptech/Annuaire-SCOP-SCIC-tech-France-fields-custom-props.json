@@ -26,8 +26,7 @@
     },
     {
       "name": "Statut juridique",
-      "subtype": "tag",
-      "bgColor" : "orange" 
+      "subtype": "tag"
     },
     {
       "name": "Fiche URSCOP",
