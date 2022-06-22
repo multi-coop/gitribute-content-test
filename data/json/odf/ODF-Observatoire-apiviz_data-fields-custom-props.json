@@ -28,13 +28,13 @@
     {
       "name": "tags",
       "subtype": "tags",
-      "tagSeparator": "-"
+      "tagSeparator": "-",
+      "bgColor" : "#BED3C3"
     },
     {
       "name": "merge",
       "subtype": "tags",
-      "tagSeparator": "+",
-      "bgColor" : "#BED3C3"
+      "tagSeparator": "+"
     },
     {
       "name": "orga",
