@@ -10,17 +10,20 @@
     {
       "name": "Tags",
       "subtype": "tags",
-      "tagSeparator": ","
+      "tagSeparator": ",",
+      "bgColor" : "#B0B9A8"
     },
     {
       "name": "Organisations_Id",
       "subtype": "tags",
-      "tagSeparator": ","
+      "tagSeparator": ",",
+      "bgColor" : "#f4a261"
     },
     {
       "name": "Organisations_Noms",
       "subtype": "tags",
-      "tagSeparator": ","
+      "tagSeparator": ",",
+      "bgColor" : "#CE6A6B"
     }
   ]
 }
