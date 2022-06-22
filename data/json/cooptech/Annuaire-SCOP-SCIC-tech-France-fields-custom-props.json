@@ -27,7 +27,7 @@
     {
       "name": "Statut juridique",
       "subtype": "tag",
-      "bgcolor" : "orange" 
+      "bgColor" : "orange" 
     },
     {
       "name": "Fiche URSCOP",
@@ -47,7 +47,7 @@
       "name": "Région(s)",
       "subtype": "tags",
       "tagSeparator": ",",
-      "bgcolor" : "green"
+      "bgColor" : "green"
     },
     {
       "name": "Numéro SIREN"
