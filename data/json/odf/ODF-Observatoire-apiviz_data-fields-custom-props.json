@@ -33,12 +33,14 @@
     {
       "name": "merge",
       "subtype": "tags",
-      "tagSeparator": "+"
+      "tagSeparator": "+",
+      "bgColor" : "#BED3C3"
     },
     {
       "name": "orga",
       "subtype": "tag",
-      "allowNew": true
+      "allowNew": true,
+      "bgColor" : "#F0BE86"
     },
     {
       "name": "platform_clean",
