@@ -99,16 +99,16 @@
       "source_fields": [
         { "name": "Adresse" }
       ],
-      "activate": false,
-      "api": "api-ban",
+      "activate": true,
+      "api": "https://api-adresse.data.gouv.fr/search/?q={{Adresse}}",
       "results_fields": [
         { 
-          "resp_field" : "latitude",
-          "map_to_field": "Latitude"
+          "resp_field" : "features.0.geometry.coordinates.1",
+          "map_to_field": "lat"
         },
         { 
-          "resp_field" : "longitude",
-          "map_to_field": "Longitude"
+          "resp_field" : "features.0.geometry.coordinates.0",
+          "map_to_field": "lon"
         }
       ]
     }

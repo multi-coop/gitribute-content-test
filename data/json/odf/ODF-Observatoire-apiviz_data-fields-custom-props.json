@@ -105,15 +105,15 @@
       "source_fields": [
         { "name": "adress" }
       ],
-      "activate": false,
-      "api": "api-ban",
+      "activate": true,
+      "api": "https://api-adresse.data.gouv.fr/search/?q={{adress}}",
       "results_fields": [
         { 
-          "resp_field" : "latitude",
+          "resp_field" : "features.0.geometry.coordinates.1",
           "map_to_field": "lat"
         },
         { 
-          "resp_field" : "longitude",
+          "resp_field" : "features.0.geometry.coordinates.0",
           "map_to_field": "lon"
         }
       ]
