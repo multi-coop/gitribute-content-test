@@ -1,0 +1,42 @@
+{
+  "fields": [
+    { 
+      "name": "pageUrl",
+      "subtype": "link",
+      "locked": true
+    },
+    { 
+      "name": "imageUrl",
+      "subtype": "link"
+    },
+    { 
+      "name": "url",
+      "subtype": "link"
+    },
+    {
+      "name": "Tags",
+      "subtype": "tags",
+      "tagSeparator": ","
+    },
+    {
+      "name": "Theme",
+      "subtype": "tags",
+      "tagSeparator": ","
+    },
+    {
+      "name": "location",
+      "subtype": "tags",
+      "tagSeparator": ","
+    },
+    {
+      "name": "from",
+      "subtype": "tags",
+      "tagSeparator": ","
+    },
+    {
+      "name": "challenge",
+      "subtype": "tags",
+      "tagSeparator": ","
+    }
+  ]
+}

@@ -25,7 +25,19 @@
       "type": "string"
     },
     { 
-      "name": "Title",
+      "name": "Coordonnées géo",
+      "type": "string"
+    },
+    { 
+      "name": "needs",
+      "type": "string"
+    },
+    { 
+      "name": "referent",
+      "type": "string"
+    },
+    { 
+      "name": "Titre",
       "type": "string"
     },
     {
@@ -37,11 +49,7 @@
       "type": "string"
     },
     {
-      "name": "from",
-      "type": "string"
-    },
-    {
-      "name": "commonscategorie",
+      "name": "challenge",
       "type": "string"
     }
   ]

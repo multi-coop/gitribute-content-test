@@ -1,0 +1,37 @@
+{
+  "fields": [
+    {
+      "name": "Title",
+      "sticky": true
+    },
+    {
+      "name": "description",
+      "subtype": "longtext",
+      "maxLength": 75
+    },
+    {
+      "name": "Tags",
+      "subtype": "tags",
+      "tagSeparator": ","
+    },
+    {
+      "name": "Theme",
+      "subtype": "tags",
+      "tagSeparator": ","
+    },
+    {
+      "name": "challenge",
+      "subtype": "tags",
+      "tagSeparator": ","
+    },
+    {
+      "name": "commonscategorie",
+      "subtype": "tags",
+      "tagSeparator": ","
+    },
+    {
+      "name": "url",
+      "subtype": "link"
+    }
+  ]
+}
