@@ -100,7 +100,7 @@
         { "name": "Adresse" }
       ],
       "activate": true,
-      "api": "https://api-adresse.data.gouv.fr/search/?q={{adress}}",
+      "api": "https://api-adresse.data.gouv.fr/search/?q={{Adresse}}",
       "results_fields": [
         { 
           "resp_field" : "features.0.geometry.coordinates.1",
