@@ -6,11 +6,11 @@
     },
     {
       "name": "nom",
-      "sticky": true,
-      "primaryKey": true
+      "sticky": true
     },
     {
-      "name": "siren"
+      "name": "siren",
+      "primaryKey": true
     },
     {
       "name": "adress",
@@ -26,10 +26,17 @@
       "subtype": "tag"
     },
     {
-      "name": "tags",
+      "name": "thématiques",
       "subtype": "tags",
       "tagSeparator": "-",
-      "bgColor" : "#BED3C3"
+      "bgColor" : "#BED3C3",
+      "foreignKey": {
+        "activate": true,
+        "foreignKeyFile": "https://gitlab.com/multi-coop/gitribute-content-test/-/blob/main/data/csv/odf/Thématiques-Annuaire.csv",
+        "returnFields" : [
+          "Tags"
+        ]
+      }
     },
     {
       "name": "merge",
