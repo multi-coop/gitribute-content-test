@@ -19,7 +19,7 @@
       "bgColor" : "#f4a261",
       "foreignKey": {
         "activate": false,
-        "targetFile": "https://gitlab.com/multi-coop/gitribute-content-test/-/blob/main/data/csv/odf/ODF-Observatoire-apiviz_data-export_solidata-220425b-simplified.csv",
+        "targetFile": "https://github.com/multi-coop/gitribute-content-test/blob/main/data/csv/odf/ODF-Observatoire-apiviz_data-export_solidata-220425b-simplified.csv",
         "targetFilePrimaryKey": "siren",
         "returnFields" : [
           "nom"
