@@ -32,7 +32,8 @@
       "bgColor" : "#BED3C3",
       "foreignKey": {
         "activate": true,
-        "foreignKeyFile": "https://gitlab.com/multi-coop/gitribute-content-test/-/blob/main/data/csv/odf/Thématiques-Annuaire.csv",
+        "targetFile": "https://gitlab.com/multi-coop/gitribute-content-test/-/blob/main/data/csv/odf/Thématiques-Annuaire.csv",
+        "targetFilePrimaryKey": "Thématique",
         "returnFields" : [
           "Tags"
         ]
@@ -55,7 +56,16 @@
     },
     {
       "name": "depcode",
-      "subtype": "tag"
+      "subtype": "tag",
+      "foreignKey": {
+        "activate": true,
+        "targetFile": "https://gitlab.com/multi-coop/gitribute-content-test/-/blob/main/data/csv/odf/ODF-Observatoire-departements-regions.csv",
+        "targetFilePrimaryKey": "depcode",
+        "returnFields" : [
+          "Département",
+          "région"
+        ]
+      }
     },
     {
       "name": "reg_code_geo",
