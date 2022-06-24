@@ -32,7 +32,7 @@
       "bgColor" : "#BED3C3",
       "foreignKey": {
         "activate": true,
-        "targetFile": "https://github.com/multi-coop/gitribute-content-test/blob/julien-foreign-keys/data/csv/odf/Thématiques-Annuaire.csv",
+        "targetFile": "https://github.com/multi-coop/gitribute-content-test/blob/julien-foreign-keys/data/csv/odf/ODF-Observatoire-thematiques.csv",
         "targetFilePrimaryKey": "Thématique",
         "returnFields" : [
           "Tags"
