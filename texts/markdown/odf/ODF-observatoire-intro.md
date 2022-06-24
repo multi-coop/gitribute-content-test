@@ -1,3 +1,8 @@
+---
+title: Présentation de l'Observatoire des Territoires
+author: Open Data France
+---
+
 # Observatoire opendata des territoires
 
 Connaître et comprendre l’avancement de l’ouverture des données publiques dans les territoires.
