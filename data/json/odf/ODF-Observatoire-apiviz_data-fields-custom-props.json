@@ -32,7 +32,7 @@
       "bgColor" : "#BED3C3",
       "foreignKey": {
         "activate": true,
-        "targetFile": "https://github.com/multi-coop/gitribute-content-test/blob/main/data/csv/odf/Thématiques-Annuaire.csv",
+        "targetFile": "https://github.com/multi-coop/gitribute-content-test/blob/julien-foreign-keys/data/csv/odf/Thématiques-Annuaire.csv",
         "targetFilePrimaryKey": "Thématique",
         "returnFields" : [
           "Tags"
@@ -59,7 +59,7 @@
       "subtype": "tag",
       "foreignKey": {
         "activate": true,
-        "targetFile": "https://github.com/multi-coop/gitribute-content-test/blob/main/data/csv/odf/ODF-Observatoire-departements-regions.csv",
+        "targetFile": "https://github.com/multi-coop/gitribute-content-test/blob/julien-foreign-keys/data/csv/odf/ODF-Observatoire-departements-regions.csv",
         "targetFilePrimaryKey": "depcode",
         "returnFields" : [
           "Département",
