@@ -17,9 +17,9 @@
       "tagSeparator": ",",
       "bgColor" : "#f4a261",
       "foreignKey": {
+        "ressource": "https://github.com/multi-coop/gitribute-content-test/blob/julien-foreign-keys/data/csv/odf/ODF-Observatoire-apiviz_data-export_solidata-220425b-simplified.csv",
+        "fields": "siren",
         "activate": true,
-        "targetFile": "https://github.com/multi-coop/gitribute-content-test/blob/julien-foreign-keys/data/csv/odf/ODF-Observatoire-apiviz_data-export_solidata-220425b-simplified.csv",
-        "targetFilePrimaryKey": "siren",
         "returnFields" : [
           "nom"
         ]
