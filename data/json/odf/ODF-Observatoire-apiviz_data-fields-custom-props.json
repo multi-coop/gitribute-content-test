@@ -59,6 +59,9 @@
       "foreignKey": {
         "activate": true,
         "ressource": "https://github.com/multi-coop/gitribute-content-test/blob/julien-foreign-keys/data/csv/odf/ODF-Observatoire-departements-regions.csv",
+        "ressourceOptions": {
+          "separator": ","
+        },
         "fields": "depcode",
         "returnFields" : [
           "Département",
