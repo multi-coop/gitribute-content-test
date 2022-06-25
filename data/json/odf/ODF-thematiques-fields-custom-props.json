@@ -3,8 +3,7 @@
     {
       "name": "Thématique",
       "subtype": "tag",
-      "tagSeparator": ",",
-      "primaryKey": true
+      "tagSeparator": ","
     },
     {
       "name": "Tags",

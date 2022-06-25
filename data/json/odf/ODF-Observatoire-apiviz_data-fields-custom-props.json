@@ -9,8 +9,7 @@
       "sticky": true
     },
     {
-      "name": "siren",
-      "primaryKey": true
+      "name": "siren"
     },
     {
       "name": "adress",

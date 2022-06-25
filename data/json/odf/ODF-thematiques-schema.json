@@ -12,5 +12,6 @@
     {
       "name": "Organisations_Noms"
     }
-  ]
+  ],
+  "primaryKey": ["Thématique"]
 }

@@ -118,5 +118,6 @@
       "title": "Bouléen",
       "type": "boolean"
     }
-  ]
+  ],
+  "primaryKey": ["siren"]
 }
