@@ -95,7 +95,17 @@
     {
       "name": "merge",
       "subtype": "tags",
-      "tagSeparator": "+"
+      "tagSeparator": "+",
+      "definitions": [
+        {
+          "name": "ptf",
+          "label": "sur un portail local"
+        },
+        {
+          "name": "datagouv",
+          "label": "sur le portail data.gouv"
+        }
+      ]
     },
     {
       "name": "orga",
