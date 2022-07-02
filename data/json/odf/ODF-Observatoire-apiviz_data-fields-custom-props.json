@@ -23,7 +23,7 @@
     {
       "name": "type",
       "subtype": "tag",
-      "defintions": [
+      "definitions": [
         {
           "value": "AGCT",
           "label": "Autre Groupement de Collectivités Territoriales",
