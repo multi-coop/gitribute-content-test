@@ -98,11 +98,11 @@
       "tagSeparator": "+",
       "definitions": [
         {
-          "name": "ptf",
+          "value": "ptf",
           "label": "sur un portail local"
         },
         {
-          "name": "datagouv",
+          "value": "datagouv",
           "label": "sur le portail data.gouv"
         }
       ]
