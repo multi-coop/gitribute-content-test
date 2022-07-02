@@ -22,7 +22,61 @@
     },
     {
       "name": "type",
-      "subtype": "tag"
+      "subtype": "tag",
+      "defintions": [
+        {
+          "value": "AGCT",
+          "label": "Autre Groupement de Collectivités Territoriales",
+          "description": "SMI, GIP, ..."
+        },
+        {
+          "value": "CA",
+          "label": "Communauté d'Agglomération"
+        },
+        {
+          "value": "CC",
+          "label": "Communauté de Communes"
+        },
+        {
+          "value": "COM",
+          "label": "Commune"
+        },
+        {
+          "value": "CU",
+          "label": "Communauté Urbaine"
+        },
+        {
+          "value": "DEP",
+          "label": "Département"
+        },
+        {
+          "value": "DSPT",
+          "label": "Délagataire de Services Publics Territoriaux",
+          "description": "opérateurs privés, Soc. d'Economie Mixte,..."
+        },
+        {
+          "value": "EPT",
+          "label": "Etablissement Public Territorial",
+          "description": "rattaché à la Métropole du Grand Paris"
+        },
+        {
+          "value": "MET",
+          "label": "Métropole"
+        },
+        {
+          "value": "OACT",
+          "label": "Organisme Associé de Collectivité Territoriale",
+          "description": "Office de Tourisme, Régie de transport, ..."
+        },
+        {
+          "value": "REG",
+          "label": "Région"
+        },
+        {
+          "value": "SDE",
+          "label": "..."
+        }
+      ]
     },
     {
       "name": "thématiques",
