@@ -99,11 +99,11 @@
       "definitions": [
         {
           "value": "ptf",
-          "label": "sur un portail local"
+          "label": "Publication sur un portail local"
         },
         {
           "value": "datagouv",
-          "label": "sur le portail data.gouv"
+          "label": "Publication sur le portail data.gouv"
         }
       ]
     },
