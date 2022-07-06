@@ -34,7 +34,7 @@
       }
     },
     {
-      "name": "tags",
+      "name": "thématiques",
       "title": "Tags thématiques",
       "type": "string"
     },
@@ -118,5 +118,6 @@
       "title": "Bouléen",
       "type": "boolean"
     }
-  ]
+  ],
+  "primaryKey": ["siren"]
 }

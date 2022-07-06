@@ -1,7 +1,7 @@
 {
   "fields": [
     {
-      "name": "Name"
+      "name": "Thématique"
     },
     {
       "name": "Tags"
@@ -12,5 +12,6 @@
     {
       "name": "Organisations_Noms"
     }
-  ]
+  ],
+  "primaryKey": "Thématique"
 }
