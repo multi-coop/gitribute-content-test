@@ -85,7 +85,7 @@
       "bgColor" : "#BED3C3",
       "foreignKey": {
         "activate": true,
-        "ressource": "https://github.com/multi-coop/gitribute-content-test/blob/julien-foreign-keys/data/csv/odf/ODF-Observatoire-thematiques.csv",
+        "ressource": "https://github.com/multi-coop/gitribute-content-test/blob/main/data/csv/odf/ODF-Observatoire-thematiques.csv",
         "fields": "Thématique",
         "returnFields" : [
           "Tags"
@@ -122,7 +122,7 @@
       "subtype": "tag",
       "foreignKey": {
         "activate": true,
-        "ressource": "https://github.com/multi-coop/gitribute-content-test/blob/julien-foreign-keys/data/csv/odf/ODF-Observatoire-departements-regions.csv",
+        "ressource": "https://github.com/multi-coop/gitribute-content-test/blob/main/data/csv/odf/ODF-Observatoire-departements-regions.csv",
         "ressourceOptions": {
           "separator": ","
         },
