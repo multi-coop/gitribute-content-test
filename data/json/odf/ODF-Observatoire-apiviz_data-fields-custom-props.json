@@ -202,6 +202,19 @@
           "map_to_field": "lon"
         }
       ]
+    },
+    {
+      "api_name": "heidi",
+      "source_fields": [
+      ],
+      "activate": true,
+      "api": "http://heidi-back.app.etalab.studio/",
+      "results_fields": [
+        { 
+          "resp_field" : "0.unique_id",
+          "map_to_field": "uuid"
+        }
+      ]
     }
   ],
   "validation": [
