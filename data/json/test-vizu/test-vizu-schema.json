@@ -1,0 +1,28 @@
+{
+  "fields": [
+    {
+      "name": "resultat_aggrege",
+      "title": "Résultat agrégé",
+      "description": "Résultat agrégé",
+      "type": "number"
+    },
+    {
+      "name": "uai",
+      "title": "Unité Administrative Immatriculé",
+      "description": "Unité Administrative Immatriculé",
+      "type": "string"
+    },
+    {
+      "name": "taux de réussite",
+      "title": "Taux de réussite au brevet",
+      "description": "Taux de réussite au brevet",
+      "type": "number"
+    },
+    {
+      "name": "code_commune",
+      "title": "Code commune",
+      "description": "Code commune",
+      "type": "string"
+    }
+  ]
+}
