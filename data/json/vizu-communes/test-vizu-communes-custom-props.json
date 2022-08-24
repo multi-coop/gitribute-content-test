@@ -1,0 +1,17 @@
+{
+  "fields": [
+    {
+      "name": "resultat_aggrege"
+    },
+    {
+      "name": "uai"
+    },
+    {
+      "name": "taux de réussite",
+      "subtype": "percent"
+    },
+    {
+      "name": "code_commune"
+    }
+  ]
+}
