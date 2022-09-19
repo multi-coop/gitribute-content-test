@@ -55,10 +55,12 @@
     },
     {
       "name": "platform_clean",
+      "title": "Plateforme",
       "type": "string"
     },
     {
       "name": "depcode",
+      "title": "Département",
       "type": "string"
     },
     {
