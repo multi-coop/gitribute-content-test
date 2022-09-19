@@ -23,6 +23,16 @@
       "title": "Code commune",
       "description": "Code commune",
       "type": "string"
-    }
+    },
+    {
+      "name": "lat",
+      "title": "Latitude",
+      "type": "number"
+    },
+    {
+      "name": "lon",
+      "title": "Longitude",
+      "type": "number"
+    },
   ]
 }
