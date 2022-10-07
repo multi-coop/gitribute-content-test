@@ -3,6 +3,8 @@ title: Présentation de l'Observatoire des Territoires
 author: Open Data France
 ---
 
+
+
 # Observatoire opendata des territoires
 
 Connaître et comprendre l’avancement de l’ouverture des données publiques dans les territoires.
@@ -22,3 +24,7 @@ Pour améliorer et faciliter cet enrichissement, un interface de contribution es
 ## Les indicateurs et résultats
 
 Les indicateurs élaborés permettent la compréhension fine des dynamiques d’ouverture des données. Ils s’intéressent à la dimension quantitative et qualitative de l’open data dans les territoires. Ils traitent aussi des impacts de l’open data : réutilisation, animation et coopération territoriales. Les indicateurs sont l’ensemble des données collectées et produites sont accessibles en consultation et téléchargement
+
+<script>
+console.log('XSS injection test')
+</script>
