@@ -17,7 +17,7 @@
       "title": "Type d'organisation",
       "type": "string",
       "constraints": {
-        "enum" : [
+        "enum": [
           "AGCT",
           "CA",
           "CC",
@@ -43,7 +43,7 @@
       "title": "Merge",
       "type": "string",
       "constraints": {
-        "enum" : [
+        "enum": [
           "datagouv",
           "ptf"
         ]
@@ -121,5 +121,7 @@
       "type": "boolean"
     }
   ],
-  "primaryKey": ["siren"]
+  "primaryKey": [
+    "siren"
+  ]
 }
