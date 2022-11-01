@@ -3,6 +3,8 @@ title: Présentation de l'Observatoire des Territoires
 author: Open Data France
 ---
 
+
+
 # Observatoire opendata des territoires
 
 Connaître et comprendre l’avancement de l’ouverture des données publiques dans les territoires.
@@ -17,7 +19,7 @@ Une plateforme de collecte semi-automatique de l’ensemble des données publié
 
 Les données sont issues d’un processus de collecte le plus automatisé possible. Lorsque cela est nécessaire, des informations sont entrées manuellement.
 
-Pour améliorer et faciliter cet enrichissement, un interface de contribution est proposé dans l’Observatoire, Les traitements et de planning de mise en oeuvre sont décrits dans la page Méthodologie.
+Pour améliorer et faciliter cet enrichissement, une interface de contribution est proposé dans l’Observatoire, Les traitements et de planning de mise en œuvre sont décrits dans la page *Méthodologie*.
 
 ## Les indicateurs et résultats
 
