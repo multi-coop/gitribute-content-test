@@ -1,9 +1,13 @@
 ---
-title: En 2022, Jailbreak devient multi !
-tags: [ multi, jailbreak ]
+title: 'En 2022, Jailbreak devient multi !'
+tags:
+  - multi
+  - jailbreak
 created: 03/03/2021
 author: multi
 ---
+
+
 
 Jailbreak a été créé en 2017 sur des valeurs d'ouverture au sens large : ouverture des codes sources, des API, des données ; ouverture culturelle ; ouverture sur la vie entrepreunariale.
 
